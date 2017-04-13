@@ -12,6 +12,7 @@ By adding GPIO based button controls to a Raspberry Pi already configured with a
 
 
 ## Requirements
+* Raspberry Pi running a systemd OS (Raspbian, Debian, Arch, DietPi)
 * Python
 * RPi.GPIO (https://pypi.python.org/pypi/RPi.GPIO)
 * python-mpd2 (http://pythonhosted.org/python-mpd2/index.html)
