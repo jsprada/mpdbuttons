@@ -14,7 +14,7 @@ By adding GPIO based button controls to a Raspberry Pi already configured with a
 
 ## Install
 
-The installation script will create a directory `/usr/bin/mpdbuttons`, poppulate it with the required scripts, install a systemd unit, enable, and start the unit.  This will automatically start upon next reboot.
+The installation script will create a directory `/usr/bin/mpdbuttons`, poppulate it with the required scripts, install a systemd unit `/etc/systemd/system/mpdbuttonsd.service`, enable, and start the unit.  This will automatically start upon next reboot.
     git clone https://github.com/jsprada/mpdbuttons/edit/master/README.md
     sudo ./install.sh
  
