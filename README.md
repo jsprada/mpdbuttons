@@ -1,5 +1,6 @@
 # mpdbuttons
 Use GPIO buttons to control mpd playback on Raspberry Pi.
+
 By: Johnny Sprada
 
 These files are from a working personal project, you may need to modify them to work for yours.
