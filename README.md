@@ -30,7 +30,7 @@ The installation script will create a directory `/usr/bin/mpdbuttons/`, populate
  
  ## Maintenence
  ### Start/Stop  
-     sudo systemctl stop mpdbuttons
+     sudo systemctl stop mpdbuttonsd
      sudo systemctl start mpdbuttonsd
  
  ### Enable/Disable Auto-Start on Boot
