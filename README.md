@@ -24,8 +24,9 @@ Connect any SPST button between ground and the GPIO pins configured in the scrip
 
 The installation script will create a directory `/usr/bin/mpdbuttons/`, populate it with the required scripts, install a systemd unit `/etc/systemd/system/mpdbuttonsd.service`, enable, and start it.  This will automatically start upon next reboot.
 
-    git clone https://github.com/jsprada/mpdbuttons/edit/master/README.md
-    sudo ./install.sh
+    $ git clone https://github.com/jsprada/mpdbuttons
+    $ cd mpdbuttons
+    $ sudo ./install.sh
  
  ## Maintenence
  ### Start/Stop  
