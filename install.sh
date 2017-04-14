@@ -5,6 +5,7 @@ cp longpress.py /usr/bin/mpdbuttons/longpress.py
 cat << _EOF_ > /etc/systemd/system/mpdbuttonsd.service
 [Unit]
 Description=Use GPIO buttons to control mpd
+BindsTo=mpd.service
 
 [Service]
 ExecStart=/usr/bin/mpdbuttons/mpdbuttonsd.py
