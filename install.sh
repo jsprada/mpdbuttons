@@ -13,7 +13,7 @@ ExecStart=/usr/bin/mpdbuttons/mpdbuttonsd.py
 [Install]
 WantedBy=multi-user.target
 _EOF_
-systemctl enable mpdbuttonsd
 systemctl daemon-reload
 systemctl start mpdbuttonsd
+systemctl enable mpdbuttonsd
 systemctl status mpdbuttonsd
